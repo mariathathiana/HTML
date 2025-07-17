@@ -1,0 +1,77 @@
+/*hoja de estilos de la web ciudades*/
+
+/* estilo normalizador*/
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+/*estilos generales
+FFCDB2 40%
+FFB4A2 40%
+E5989B 20%
+B5828C 20% 
+
+*/
+body{
+	font-size: 24px;
+	font-family: Trebuchet MS;
+	background-color: #FFB4A2;
+	font-weight: normal;
+}
+
+h1	{
+	background: #FFCDB2;
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	border-radius: 15px;
+}
+
+header, section {
+	width: 90%;
+	margin: auto;
+	background-color: #FFB4A2;
+	padding: :10px;
+	border-radius: 15px;
+}
+
+nav {
+	width: 100%;
+	background-color: #E5989B;
+	margin: auto;
+	text-align: center;
+	border-radius: 15px;
+}
+
+li{
+	display: inline-block;
+	width: 140px;
+	padding: 8px;
+	margin: 10px 10px;
+	background-color: #B5828C;
+	text-align: center;
+	border-radius: 15px;
+
+}
+
+div{
+	text-align: center;
+	background-color: #B5828C;
+	margin: auto;
+	
+}
+
+div img {
+	height: 150px;
+	margin: 20px 10px;
+}
+footer {
+	background-color: #FFB4A2;
+	padding: :10px;
+	height: 250px;
+}
+img {
+  border-radius: 8px;
+}
