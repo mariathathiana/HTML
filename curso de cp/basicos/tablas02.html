@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		h1 {
+			text-align: center;
+			background-color: aliceblue;
+			padding: 5px 0px;
+			}
+		table, th, td{
+			font-size: 20px;
+			border: 1px solid black;
+			**border-collapse: collapse;
+			border-radius: 5px;
+		}
+
+		th, td{
+			padding: 5px;
+		}
+
+		table{
+			width: 80%;
+			background-color: beige;
+			border-radius: 5px;
+		}
+		tr:nth-child(even){
+			background-color: lightskyblue;
+		}
+
+		tr:nth-child(1){
+			background-color: navy;
+			color: white;
+		}
+
+
+
+	</style>
+</head>
+	<h1>Tabla estilo 01</h1>
+	<table>
+		<tr>
+			<th>Mes</th>
+			<th style="width: 40%;">Vendedor</th>
+			<th style="width: 20%;">Cantidad</th>
+			<th style="width: 20%;">Objetivo</th>
+		</tr>
+		<tr>
+			<td rowspan="3">Enero</td>
+			<td>Pérez</td>
+			<td>58</td>
+			<td>si</td>
+		</tr>
+
+		<tr>
+			<td>García</td>
+			<td>58</td>
+			<td>si</td>
+		</tr>
+		<tr>
+			<td>Molina</td>
+			<td>58</td>
+			<td>si</td>
+		</tr>
+		<tr>
+			<td rowspan="3">Febrero</td>
+			<td>Fulgencio</td>
+			<td>58</td>
+			<td>no</td>
+		</tr>
+		<tr>
+			<td>Pancracio</td>
+			<td>58</td>
+			<td>no</td>
+		</tr>
+					
+		<tr>
+			<td>Pancracio</td>
+			<td>58</td>
+			<td>no</td>
+		</tr>
+		</table>
+	
+
+</body>
+</html>
